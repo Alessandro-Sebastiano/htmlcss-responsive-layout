@@ -218,3 +218,69 @@ a {
 .down-arrow i {
     line-height: 50px;
 }
+
+
+
+.testimonial-container {
+    padding: 1.5rem 0;
+}
+
+.testimonial-box {
+    text-align: center;
+}
+
+
+.testimonial-box h5 {
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+
+.testimonial-box h2 {
+    font-size: 2.2rem;
+    margin: 1.8rem 0;
+    color: var(--purple);
+}
+
+
+
+.testimonial-box p {
+    font-size: 1.3rem;
+}
+
+
+
+
+.testimonial-card {
+    background-color: var(--purple);
+    color: var(--light);
+    text-align: center;
+    padding: 2rem 1rem;
+    border-radius: 50px;
+    margin: 2rem 0;
+}
+
+
+
+.testimonial-card p {
+    font-size: 1.5rem;
+    margin: 1.5rem 0;
+}
+
+
+.testimonial-card-image {
+    width: 220px;
+    height: 220px;
+    display: block;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+
+
+.testimonial-card-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
