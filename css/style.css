@@ -13,6 +13,17 @@
     --light: #ffffff;
     --light-dark: #333333;
     --yellow: #fdc15f;
+    --gray: #63798c;
+}
+
+body {
+    font-family: 'PT Sans', sans-serif;
+}
+
+
+a {
+    text-decoration: none;
+    color: var(--light);
 }
 
 
@@ -25,6 +36,8 @@
 
 .nav {
     position: fixed;
+    top: 0;
+    left: 0;
     width: 100%;
     background-color: var(--blue);
     padding: 1rem;
@@ -53,4 +66,86 @@
 
 .nav-menu {
     display: none;
+}
+
+
+
+.main-container {
+    margin-top: 76px;
+}
+
+
+
+.section {
+    width: 100%;
+    padding: 2rem;
+}
+
+
+.card {
+    width: 100%;
+    max-width: 480px;
+    background-color: var(--light-blue);
+    border-radius: 20px;
+    text-align: center;
+    padding: 2.2rem 1.2rem;
+    margin-bottom: 1.5rem;
+}
+
+
+.primary-card {
+    padding-bottom: 0;
+    padding-top: 0.5rem;
+}
+
+
+.primary-card-button {
+    background-color: var(--blue);
+    padding: 10px 50px;
+    margin: 1.5rem 0;
+    border-radius: 20px;
+    display: inline-block;
+}
+
+
+.primary-card-image {
+    width: 100%;
+}
+
+
+.primary-card-image img {
+    width: 100%;
+    display: block;
+}
+
+
+.card i {
+    font-size: 3.5rem;
+    color: var(--blue);
+}
+
+
+
+.card h3 {
+    font-size: 1.6rem;
+    font-weight: 700;
+    margin: 1.5rem 0;
+    color: var(--blue);
+}
+
+
+.card p {
+    font-weight: 700;
+    color: var(--gray);
+}
+
+.primary-card i {
+    font-size: 1rem;
+    color: var(--light);
+    margin-right: 0.5rem;
+}
+
+
+.primary-card p {
+    text-align: start;
 }
