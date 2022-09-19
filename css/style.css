@@ -89,6 +89,7 @@ a {
     border-radius: 20px;
     text-align: center;
     padding: 2.2rem 1.2rem;
+    margin: 0 auto;
     margin-bottom: 1.5rem;
 }
 
@@ -114,7 +115,7 @@ a {
 
 
 .primary-card-image img {
-    width: 100%;
+    max-width: 100%;
     display: block;
 }
 
@@ -148,4 +149,72 @@ a {
 
 .primary-card p {
     text-align: start;
+}
+
+
+
+.background {
+    background-color: var(--purple);
+}
+
+
+
+
+
+.planning-left h2 {
+    font-size: 2rem;
+    margin: 2rem 0;
+    color: var(--light);
+}
+
+
+.planning-left p {
+    color: var(--light);
+    margin: 1.8rem 0;
+}
+
+
+
+
+
+
+.planning-image {
+    width: 100%;
+}
+
+
+.planning-image img {
+    max-width: 100%;
+}
+
+
+
+.planning-card {
+    background-color: var(--light);
+    border-radius: 40px;
+    padding: 2.2rem 1rem;
+    text-align: center;
+}
+
+
+.planning-card h3 {
+    font-size: 1.6rem;
+    margin: 1rem 0;
+}
+
+
+
+.down-arrow {
+    width: 50px;
+    height: 50px;
+    background-color: var(--purple);
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-top: 2rem;
+}
+
+
+
+.down-arrow i {
+    line-height: 50px;
 }
