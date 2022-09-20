@@ -541,27 +541,19 @@ h3 {
 @media screen and (min-width: 768px) {
 
 
-    .card-up {
-        width: 100%;
+    .cards-box {
         display: flex;
-        justify-content: space-between;
+        flex-wrap: wrap;
     }
 
 
-    .card-up .card {
-        width: calc(100% / 3);
+    .cards-box .card {
+        width: calc((100% / 3) - 15px);
     }
 
 
-    .card-up .primary-card {}
-
-    .card-bottom .card {
-        width: calc((100% / 3) - 20px);
-    }
-
-
-    .card-bottom {
-        display: flex;
+    .cards-box .primary-card {
+        min-width: 460px;
     }
 
 
