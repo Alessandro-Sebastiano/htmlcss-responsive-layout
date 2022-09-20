@@ -463,3 +463,26 @@ h3 {
     font-weight: 500;
     font-size: 1.2rem;
 }
+
+
+
+
+.footer {
+    background-color: var(--light-dark);
+    color: var(--light);
+    text-align: center;
+}
+
+
+
+.footer-box p {
+    margin-bottom: 2.4rem;
+}
+
+
+
+
+.footer-box span a {
+    color: var(--purple);
+    text-decoration: underline;
+}
