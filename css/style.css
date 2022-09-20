@@ -28,6 +28,7 @@ a {
 
 
 
+
 .flex-box {
     display: flex;
 }
@@ -78,8 +79,10 @@ a {
 
 .section {
     width: 100%;
-    padding: 2rem;
+    padding: 3rem 2rem;
 }
+
+
 
 
 .card {
@@ -94,10 +97,15 @@ a {
 }
 
 
+
+
+
+
 .primary-card {
     padding-bottom: 0;
     padding-top: 0.5rem;
 }
+
 
 
 .primary-card-button {
@@ -132,12 +140,19 @@ a {
     font-weight: 700;
     margin: 1.5rem 0;
     color: var(--blue);
+    text-align: center;
 }
 
 
 .card p {
     font-weight: 700;
     color: var(--gray);
+}
+
+
+
+.primary-card h3 {
+    text-align: left;
 }
 
 .primary-card i {
@@ -200,6 +215,7 @@ a {
 .planning-card h3 {
     font-size: 1.6rem;
     margin: 1rem 0;
+    text-align: center;
 }
 
 
@@ -330,4 +346,74 @@ h3 {
     display: inline-block;
     border-radius: 50px;
     padding: 0.6rem 3.5rem;
+}
+
+
+
+
+
+.about-section h2 {
+    font-size: 2.2rem;
+    color: var(--purple);
+}
+
+
+
+.about-section p {
+    font-size: 1.2rem;
+    margin: 1.5rem 0;
+    line-height: 2.2rem;
+}
+
+
+.about-card {
+    position: relative;
+    max-width: 311px;
+    padding: 1.5rem 0;
+}
+
+
+
+.mark {
+    font-size: 12rem;
+    color: var(--purple);
+    position: absolute;
+    top: -20px;
+    right: 85px;
+}
+
+
+.about-card-image {
+    width: 240px;
+    height: 240px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+
+
+.about-card-image img {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.about-card h3 {
+    font-size: 1.6rem;
+    margin: 1.5rem 0;
+}
+
+
+.about-card-button {
+    display: inline-block;
+    background-color: var(--purple);
+    padding: 0.5rem 1rem;
+    border-radius: 50px;
+    color: var(--light);
+}
+
+
+.about-card-button i {
+    margin-right: 0.5rem;
 }
